@@ -1,0 +1,366 @@
+@media (min-width: 900px) {
+
+}
+@media (min-width: 900px){
+    .nav-item{
+        margin-left : 15px;
+        margin-right : 15px;
+    }
+    #change{
+        margin-left: 250px;
+    }
+
+}
+body {
+    height: 100%;
+}
+a{
+    color: white;!important;
+}
+#myFooter {
+    background-color: #373a48;
+    color: white;
+}
+
+#myFooter .footer-copyright {
+    background-color: #383737;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .myCols {
+    text-align: center;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+#myCarouse {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#myCarouse .carousel-control-prev {
+    margin-left: -125px;
+    color: black;
+}
+
+#myCarouse .carousel-control-next {
+    margin-right: -125px;
+    color: black;
+}
+
+
+#myCarousell {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#myCarousell .carousel-control-prev {
+    margin-left: -125px;
+    color: black;
+}
+
+#myCarousell .carousel-control-next {
+    margin-right: -125px;
+    color: black;
+}
+#largeImage {
+    width: 320px;
+    height: 320px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+#productheading{
+    font-family: "sans-serif";
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+#productheading .productprice{
+    font-size: 20px;
+    color: black;
+}
+#productheading .updatedprice{
+    font-size: 20px;
+    color: black;
+}
+
+#productheading .stockupdate{
+    color: darkgreen ;
+    font-size: 20px;
+}
+#seperatedetail{
+    margin-left: 20px;
+}
+.save{
+    color: darkred;
+}
+.adding{
+    width: 300px;
+    padding: 60px;
+    border: 1px solid lightgrey;
+}
+
+.movecollapseleft{
+    margin-left: 50px;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.accordion-option {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 15px 0;
+}
+
+.accordion-option .title {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-option .toggle-accordion {
+    float: right;
+    font-size: 16px;
+    color: #6a6c6f;
+}
+
+.accordion-option .toggle-accordion:before {
+    content: "Expand All";
+}
+
+.accordion-option .toggle-accordion.active:before {
+    content: "Collapse All";
+}
+
+.img-fluid{
+    height:250px;
+}
+.largeimage{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.img-thumbnail{
+    height: 50px;
+    width: 50px;
+}
+#thick{
+    color: lightseagreen;
+}
+#reviewusername{
+    color: darkgray;
+}
+
+#purchaseverification{
+    color: lightcoral;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.starrating{
+    color: black;
+    font-size: 20px;
+}
+.insidestar{
+    color: green;
+    font-size: 20px;
+}
+
+.stars{
+    color: gold;
+    margin-top: -10px;
+}
+
+#dealheading{
+    color:white;
+    background-color: darkred;
+    padding: 2px;
+    font-size: 12px;
+    display: inline-block;
+}
+.proprice{
+    margin-bottom: 0px;
+}
+.goldstar{
+    color: darkgoldenrod;
+}
+
+.prodiscount{
+    color: darkred;
+}
+.cutoff{
+    text-decoration: line-through;
+}
+.filterheading{
+    font-size: 20px;
+    padding: 2px;
+    border-top: 2px solid lightgrey;
+    margin-left: 10px;
+}
+#scroller{
+    overflow: scroll;
+    height: 750px;
+}
+
+.content{
+    align-content: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.seperator{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.btn-primary{
+    margin-bottom: 20px;
+
+}
+
+#shoppingcartproduct{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #0077e2;
+}
+#shoppingcartbrand{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+
+}
+
+.fa-heart{
+    color: pink;
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-trash{
+    color: #373a48;
+}
+.fa-trash:hover{
+    color: #00aced;
+}
